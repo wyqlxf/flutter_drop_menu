@@ -1,7 +1,7 @@
 name: flutter_drop_menu
 description: "An easy-to-use custom dropdown menu that allows you to customize titles, menu items, and comes with various built-in animation effects."
 repository: https://github.com/wyqlxf/flutter_drop_menu
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ">=3.1.5 <4.0.0"
@@ -16,6 +16,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+
+flutter:
 
 
 platforms:
