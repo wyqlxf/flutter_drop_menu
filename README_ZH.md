@@ -41,6 +41,7 @@ Language： [English](https://github.com/wyqlxf/flutter_drop_menu/blob/master/RE
 | animTypes | List<AnimationType>? | 菜单动画类型集合，可以指定每个菜单进行不同的动画 | 否 |
 | outsideOnTap | GestureTapCallback? | 外部点击区域回调 | 否 |
 | headerHeight | double | 标题小部件的高度 | 否 |
+| headerDecoration | Decoration? | 标题的装饰 | 否 |
 | headerBackgroundColor | Color | 标题小部件的背景颜色 | 否 |
 | headerMainAxisAlignment | MainAxisAlignment | 标题小部件在主轴上的排列方式 | 否 |
 | slideDx | double | 使用[AnimationType.rightToLeft]动画类型时滑动菜单占用的空间量 | 否 |

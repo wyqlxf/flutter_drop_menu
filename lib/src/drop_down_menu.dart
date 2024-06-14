@@ -47,6 +47,9 @@ class DropDownMenu extends StatefulWidget {
   /// The background color of the header.
   final Color headerBackgroundColor;
 
+  /// The decoration of the header.
+  final Decoration? headerDecoration;
+
   /// The arrangement of the title widget on the main axis.
   final MainAxisAlignment headerMainAxisAlignment;
 
@@ -80,6 +83,7 @@ class DropDownMenu extends StatefulWidget {
     this.animTypes,
     this.outsideOnTap,
     this.headerHeight = 48,
+    this.headerDecoration,
     this.headerBackgroundColor = Colors.white,
     this.headerMainAxisAlignment = MainAxisAlignment.spaceAround,
     this.slideDx = 0.2,
@@ -210,7 +214,10 @@ class _DropDownMenuState extends State<DropDownMenu>
     return Container(
       width: double.infinity,
       height: widget.headerHeight,
-      color: widget.headerBackgroundColor,
+      decoration: widget.headerDecoration ??
+          BoxDecoration(
+            color: widget.headerBackgroundColor,
+          ),
       alignment: Alignment.center,
       child: Row(
         mainAxisAlignment: widget.headerMainAxisAlignment,

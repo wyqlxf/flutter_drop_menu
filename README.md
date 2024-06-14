@@ -40,6 +40,7 @@ Add the flutter_drop_menu package to your [pubspec dependencies](https://pub.dev
 | animTypes | List<AnimationType>? | Choose different animation types for each menu based on the menu index | No |
 | outsideOnTap | GestureTapCallback? | The callback that is called when the outside region is tapped | No |
 | headerHeight | double | The height of the header | No |
+| headerDecoration | Decoration? | The decoration of the header | No |
 | headerBackgroundColor | Color | The background color of the header | No |
 | headerMainAxisAlignment | MainAxisAlignment | The arrangement of the title widget on the main axis | No |
 | slideDx | double | The amount of space the sliding menu takes when using the [AnimationType.rightToLeft] animation type | No |
